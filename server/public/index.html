@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Matthew Anderson</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="UTF-8">
+		<meta name="author" content="Matthew Anderson">
+		<meta name="description" content="Portfolio">
+
+		<link rel="stylesheet" href="/css/font-awesome/css/font-awesome.min.css">
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="/css/main.css">
+	</head>
+	<body>
+		<nav class="navbar navbar-default container-fluid">
+			<div>
+
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">Matthew Anderson</a>
+				</div>
+
+				<div id="navbar" class="collapse navbar-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="active"><a href="#">Projects</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Skills</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		
+		<div class="container-fluid">
+
+			<div id="welcome">
+				<div class="row centered">
+					<div class="col-lg-8 col-lg-offset-2">
+						<h1>Hi, I'm Matt</h1>
+						<p>I'm a computer science student at Oregon State University</p>
+					</div>
+				</div>
+				<div class="row centered margin-top">
+					<div class="col-xs-6 col-md-3 col-md-offset-3">
+						<a href="#"><i class="fa fa-github fa-4x"></i></a>
+						<p>Github</p>
+					</div>
+
+					<div class="col-xs-6 col-md-3">
+						<a href="#"><i class="fa fa-envelope fa-4x"></i></a>
+						<p>Email Me</p>
+					</div>
+				</div>
+			</div> <!--end of welcome-->
+
+			<div id="projects" class="row centered">
+				<h1>Projects</h1>
+				<div class="col-md-4 project">
+					<img src="assets/jtrivia.png">
+					<h2>JTrivia</h2>
+					<p class="description">Trivia game generated from a pool of over 320,000 clues from the popular gameshow.</p>
+					<div>
+						<span>Built with: </span> HTML, CSS, JavaScript, Express.js, MongoDB.
+					</div>
+					<a href="#" class="github">View on Github</a>
+				</div>
+				<div class="col-md-4 project">
+					<img src="assets/jarchive-scraper.png">
+					<h2>J! Archive Scraper</h2>
+					<p class="description">Multi-threaded scraper that collects over 320,000 clues from j-archive.com, a fan maintained repository of clues
+					from the Jeopardy! gameshow, and saves them to MongoDB.</p>
+					<div>
+						<span>Built with: </span> Python, MongoDB.
+					</div>
+					<a href="#" class="github">View on Github</a>
+				</div>
+				<div class="col-md-4 project">
+					<img src="assets/metrotracker.png">
+					<h2>WMATA Bus Tracker</h2>
+					<p class="description">Track the real time locations, scheduled arrival times, and delay times of Washington, DC metrobuses.</p>
+					<div>
+						<span>Built with: </span> Angular2, Express.js
+					</div>
+					<a href="#" class="github">View on Github</a>
+				</div>
+			</div>
+		</div> <!--end of content .container-fluid-->
+
+
+		<!-- needs JQ - not worth it only for menu nav dropdown?-->
+		<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+	</body>
+</html>
